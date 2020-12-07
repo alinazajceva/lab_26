@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+   <link rel="stylesheet" href="assets/style.css">
+    <meta charset="utf-8" />
+    <title>Машка МММаркевич</title>
+    <script type="text/javascript">
+      number=0
+      imgpicture=new Array()
+      imgpicture[0]=new Array()
+      imgpicture[1]=new Array()
+      imgpicture[2]=new Array()
+      imgpicture[3]=new Array()
+      imgpicture[4]=new Array()
+      imgpicture[0].src="masha1.jpg"
+      imgpicture[1].src="masha2.jpg"
+      imgpicture[2].src="masha3.jpg"
+      imgpicture[3].src="masha4.jpg"
+      imgpicture[4].src="masha5.jpg"
+
+      function slides() {
+        document.images[0].src=imgpicture[number].src
+        number++;
+        if (number == 5) number == 0;
+        setTimeout("slides()",3000)
+      }
+    </script>
+</head>
+<body bgcolor="#34495e" onload="slides()">
+ 
+ 
+ 
+  
+  <table>
+  <td>
+   <img src="masha1.jpg" width="600" height="620" alt="" class="fon">
+      </td>
+      <td class="mm">
+          <a href="index2.html" class="knopka">Страничка Машки МММаркевич</a>
+      </td>
+      <td>
+          <ul class="menu">
+    <li><a href=#>МАШКА</a>
+        <ul class="submenu">
+            <li><a href=#>МИЛАЯ</a></li>
+            <li><a href=#>АБИЗЯНА</a></li>
+            <li><a href=#>ШИКАРНАЯ</a></li>
+             <li><a href=#>КОНФЭТКА</a></li>
+             <li><a href=#>АКТИВИСТКА</a></li>
+        </ul>
+    </li>
+   
+</ul>
+      </td>
+      </table>
+      
+  
+</body>
+</html>
+
+
+
+
+
+
+ 
